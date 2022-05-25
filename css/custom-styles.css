@@ -1,40 +1,47 @@
-body{
-    margin:0;
-    font-family: Arial, Helvetica, sans-serif;
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
-header{
-    padding: 10px 0px 0px 1px;    
+header {
+  padding: 10px 0px 0px 1px;
 }
-input, select{
-    border:none;
+input,
+select {
+  border: none;
 }
-button{
-    border:none;
-    border-radius: 2px; 
+button {
+  border: none;
+  border-radius: 2px;
 }
-.heading, .sub-heading{
-    box-shadow: 0px 5px 5px black;
-    line-height: 50px;
-}
-
-.sub-heading{
-    font-family: cursive;
+.heading,
+.sub-heading {
+  box-shadow: 0px 5px 5px black;
+  line-height: 50px;
 }
 
-#contact-form-section{
-    border-top: 1px solid gray;
+.sub-heading {
+  font-family: cursive;
 }
 
-#theme-selection-section{
-    border: 1px solid gray;
-    width:50vw;
-    /* display: flex;
+#contact-form-section {
+  border-top: 1px solid gray;
+}
+
+#theme-selection-section {
+  border: 1px solid gray;
+  width: 50vw;
+  /* display: flex;
     justify-content: center; */
 }
 
-#contact-form{
-    width: 35%;
-    margin: auto;
-    border: 1px solid gray;
-    border-radius: 2px;
+#contact-form {
+  width: 35%;
+  margin: auto;
+  border: 1px solid gray;
+  border-radius: 2px;
+}
+
+.my-card {
+  border-radius: 10%;
+  margin: 5px;
 }
